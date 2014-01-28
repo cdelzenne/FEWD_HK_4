@@ -1,0 +1,47 @@
+body{
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	border: solid 640px #ccc;
+	
+}
+
+h1{
+	font-size: 34;
+	color:white;
+	text-align: center;
+	font-style: italic;
+}
+
+h2{
+	font-size: 34;
+	color:white;
+	font-family: verdana;
+}
+
+nav ul{
+
+}
+
+footer ul{
+
+}
+
+li{
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+img{
+
+}
