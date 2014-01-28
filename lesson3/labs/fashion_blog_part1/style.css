@@ -1,0 +1,47 @@
+a {
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Lustria', serif;
+	color: red;
+}
+
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+h1 a {
+
+}
+
+header h2 {
+	font-family: 'Lustria', serif;
+	font-size: 22px;
+}
+
+article h2 {
+	font-size: 24px;
+	font-family: 'Lustria', serif;
+}
+
+nav a {
+	color: grey;
+	font-size: 22px;
+	font-family: 'Lustria', serif;
+}
+
+h3 {
+	color: grey;
+	font-size: 24px;
+	font-family: 'Lustria', serif;
+
+}
