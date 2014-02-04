@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 a {
 	text-decoration: none;
 }
@@ -29,11 +33,14 @@ h1 a {
 	color: red;
 	font-size: 50px;
 	font-family: 'Lustria', serif;
+	float: left;
+	margin-right: 20px;
 }
 
 header h2 {
 	font-family: 'Lustria', serif;
-	font-size: 22px;
+	font-size: 23px;
+	padding-top: 26px;
 }
 
 article h2 {
@@ -41,23 +48,28 @@ article h2 {
 	font-family: 'Lustria', serif;
 }
 
-h2 a {
-	color: black;
-}
-
-nav a {
-	border-bottom: 1px solid #D7D5DB;
-	font-size: 22px;
-	font-family: 'Lustria', serif;
-	margin-right: 20px;
-}
-
-nav a:link {
+h2 {
 	color: #D7D5DB;
 }
 
+nav{
+	clear: both;
+}
+
+nav a {
+	background-color: black;
+	padding: 15px;
+	font-size: 22px;
+	font-family: 'Lustria', serif;
+	/*margin-right: 20px;*/
+}
+
+nav a:link {
+	color: white;
+}
+
 nav a:visited {
-	color: grey;
+	color: white;
 }
 
 nav a:hover {
