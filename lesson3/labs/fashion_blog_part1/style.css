@@ -6,12 +6,12 @@ p {
 	font-size: 20px;
 }
 
-p:first-letter{
+article p:first-letter{
 	font-size: 100px;
 	color: #D7D5DB;
 	float: left;
 	font-family: 'Lustria', serif;
-/* how to reduce padding?*/
+	line-height: 102px;
 }
 
 #container {
@@ -46,11 +46,22 @@ h2 a {
 }
 
 nav a {
-	color: #D7D5DB;
 	border-bottom: 1px solid #D7D5DB;
 	font-size: 22px;
 	font-family: 'Lustria', serif;
 	margin-right: 20px;
+}
+
+nav a:link {
+	color: #D7D5DB;
+}
+
+nav a:visited {
+	color: grey;
+}
+
+nav a:hover {
+	color: red;
 }
 
 h3 {
@@ -63,12 +74,11 @@ h3 {
 h4 {
 	text-align: right;
 } 
-/*why doesn't it work with h4 a {} ?*/
 
 h4 a {
 	color: red;
 	font-size: 20px;
-	/*font-style: bold; why no difference?*/
+	/*font-style: bold; why no difference? default is boldx*/
 }
 img {
 	width: 800px;
@@ -81,20 +91,31 @@ hr {
 }
 
 footer li{
+	/* do I need to specify a? no because it applies to li, not a*/
 	list-style: none;
 	float: left;
+}
+
+footer li:last-child a{
+	border-right: 0;
 }
 
 footer a {
 	color: red;
 	font-size: 18px;
 	font-family: 'Lustria', serif;
-	margin-right: 7px;
-	/*text-align: left; how to?*/ 
+	border-right: solid 2px #D7D5DB;
+	padding: 0 9px;
+}
+
+footer ul{
+	padding: 0;
 }
 
 footer p{
 	padding-top: 10px;
 	clear:both;
+	/* need for clearfix? better */
 	color: #D7D5DB;
 }
+
