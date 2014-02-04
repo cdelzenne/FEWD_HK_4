@@ -2,6 +2,18 @@ a {
 	text-decoration: none;
 }
 
+p {
+	font-size: 20px;
+}
+
+p:first-letter{
+	font-size: 100px;
+	color: #D7D5DB;
+	float: left;
+	font-family: 'Lustria', serif;
+/* how to reduce padding?*/
+}
+
 #container {
 	width: 800px;
 	margin: 0 auto;
@@ -15,7 +27,7 @@ header {
 
 h1 a {
 	color: red;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: 'Lustria', serif;
 }
 
@@ -29,16 +41,60 @@ article h2 {
 	font-family: 'Lustria', serif;
 }
 
+h2 a {
+	color: black;
+}
+
 nav a {
-	color: grey;
-	border-bottom: 1px solid grey;
+	color: #D7D5DB;
+	border-bottom: 1px solid #D7D5DB;
 	font-size: 22px;
 	font-family: 'Lustria', serif;
+	margin-right: 20px;
 }
 
 h3 {
-	color: grey;
+	color: #D7D5DB;
 	font-size: 24px;
 	font-family: 'Lustria', serif;
 
+}
+
+h4 {
+	text-align: right;
+} 
+/*why doesn't it work with h4 a {} ?*/
+
+h4 a {
+	color: red;
+	font-size: 20px;
+	/*font-style: bold; why no difference?*/
+}
+img {
+	width: 800px;
+}
+
+hr {
+	background-color: #D7D5DB;
+	border:0;
+	height: 1px;
+}
+
+footer li{
+	list-style: none;
+	float: left;
+}
+
+footer a {
+	color: red;
+	font-size: 18px;
+	font-family: 'Lustria', serif;
+	margin-right: 7px;
+	/*text-align: left; how to?*/ 
+}
+
+footer p{
+	padding-top: 10px;
+	clear:both;
+	color: #D7D5DB;
 }
