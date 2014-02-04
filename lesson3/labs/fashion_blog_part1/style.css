@@ -2,12 +2,6 @@ a {
 	text-decoration: none;
 }
 
-h1{
-	font-family: 'Lustria', serif;
-	color: red;
-}
-
-
 #container {
 	width: 800px;
 	margin: 0 auto;
@@ -20,7 +14,9 @@ header {
 
 
 h1 a {
-
+	color: red;
+	font-size: 40px;
+	font-family: 'Lustria', serif;
 }
 
 header h2 {
@@ -35,6 +31,7 @@ article h2 {
 
 nav a {
 	color: grey;
+	border-bottom: 1px solid grey;
 	font-size: 22px;
 	font-family: 'Lustria', serif;
 }
