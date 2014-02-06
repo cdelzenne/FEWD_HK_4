@@ -15,7 +15,7 @@ article p:first-letter{
 	color: #D7D5DB;
 	float: left;
 	font-family: 'Lustria', serif;
-	line-height: 102px;
+	line-height: 62px;
 }
 
 #container {
@@ -28,6 +28,45 @@ header {
 	margin-bottom: 50px;
 }
 
+aside{
+	float: right;
+	width: 30%;
+	padding-left: 20px;
+	margin-top: 45px;
+	/*why padding and not margin?*/
+}
+
+aside h4{
+	color: grey;
+	text-align: left;
+}
+aside p{
+	font-size: 15px;
+	color: grey;
+}
+
+h5 {
+	text-align: right;
+}
+
+h5 a{
+	color: red;
+	font-size: 15px;
+}
+
+aside img {
+	width: auto;
+	/*why is img larger than sidebar?*/
+}
+
+aside a{
+	color: red;
+	/*how to style the dot?*/
+}
+
+main {
+	width: 70%;
+}
 
 h1 a {
 	color: red;
@@ -41,6 +80,7 @@ header h2 {
 	font-family: 'Lustria', serif;
 	font-size: 23px;
 	padding-top: 26px;
+	color: #D7D5DB;
 }
 
 article h2 {
@@ -48,8 +88,8 @@ article h2 {
 	font-family: 'Lustria', serif;
 }
 
-h2 {
-	color: #D7D5DB;
+article h2 a{
+	color: black;
 }
 
 nav{
@@ -93,7 +133,8 @@ h4 a {
 	/*font-style: bold; why no difference? default is boldx*/
 }
 img {
-	width: 800px;
+	width: 550px;
+	/*how to set img to resize auto instead of specifying width?*/
 }
 
 hr {
@@ -114,7 +155,7 @@ footer li:last-child a{
 
 footer a {
 	color: red;
-	font-size: 18px;
+	font-size: 12px;
 	font-family: 'Lustria', serif;
 	border-right: solid 2px #D7D5DB;
 	padding: 0 9px;
