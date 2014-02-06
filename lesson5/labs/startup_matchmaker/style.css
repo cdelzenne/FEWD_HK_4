@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+header{
+	background-color: black;
+}
+
+header h1{
+	color: yellow;
+	padding-left: 20px;
+	font-style: 25px;
+}
+
+header nav{
+	margin-left: 150px;
+}
+
+a.uppercase {
+	color: white;
+	text-transform: uppercase;
+	/*text-decoration: bold; does not work?*/
+	font-size: 20px;
+}
+
+nav a {
+	color: white;
+	padding-right: 20px;
+}
+
+hr{
+	background-color: yellow;
+	border: 10px;
+	/*border-color: grey;*/
+	height: 3px;
+}
+
+div#sub-header{
+	background-color: #D7D5DB;
+	padding: 50px;
+	text-align: center;
+}
+
+span {
+	font-style: italic;
+	font-size: 30px;
+	text-decoration: bold;
+}
+
+span.strike{
+	text-decoration: line-through;
+	/*text-decoration: bold;*/
+}
+
+span.underline{
+	border-bottom: solid 2px yellow;
+}
+
+div #main {
+  	background: url(./images/coworking.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+  	/*height: 400px; deactivate when content is there*/
+}
