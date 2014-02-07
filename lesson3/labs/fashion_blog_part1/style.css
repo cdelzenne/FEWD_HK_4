@@ -33,7 +33,6 @@ aside{
 	width: 30%;
 	padding-left: 20px;
 	margin-top: 45px;
-	/*why padding and not margin?*/
 }
 
 aside h4{
@@ -55,13 +54,15 @@ h5 a{
 }
 
 aside img {
-	width: auto;
-	/*why is img larger than sidebar?*/
+	max-width:100%; max-height:100%;
 }
 
-aside a{
-	color: red;
-	/*how to style the dot?*/
+aside li {
+	color: #D7D5DB;
+}
+
+aside li a {
+	color: #D7D5DB;
 }
 
 main {
@@ -130,11 +131,11 @@ h4 {
 h4 a {
 	color: red;
 	font-size: 20px;
-	/*font-style: bold; why no difference? default is boldx*/
+	font-weight: bold; 
 }
 img {
 	width: 550px;
-	/*how to set img to resize auto instead of specifying width?*/
+	/*how to set img to resize auto instead of specifying width? max-width & max-height to 100%*/
 }
 
 hr {
