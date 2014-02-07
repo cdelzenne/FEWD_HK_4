@@ -13,22 +13,28 @@ header{
 header h1{
 	color: yellow;
 	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0px;
 	font-style: 25px;
+	font-family: 'Ledger', serif;
 }
 
 header nav{
-	margin-left: 150px;
+	/*margin-left: 250px;*/
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 a.uppercase {
 	color: white;
 	text-transform: uppercase;
-	/*text-decoration: bold; does not work?*/
 	font-size: 20px;
 }
 
 nav a {
 	color: white;
+	font-weight: bold;  
 	padding-right: 20px;
 }
 
@@ -37,23 +43,25 @@ hr{
 	border: 10px;
 	/*border-color: grey;*/
 	height: 3px;
+	margin: 0px;
 }
 
 div#sub-header{
 	background-color: #D7D5DB;
-	padding: 50px;
+	padding: 30px;
 	text-align: center;
+	/*box-shadow: 0 10px 5px 0 black;*/
 }
 
 span {
 	font-style: italic;
 	font-size: 30px;
-	text-decoration: bold;
+	font-weight: bold;
 }
 
 span.strike{
 	text-decoration: line-through;
-	/*text-decoration: bold;*/
+	color: grey;
 }
 
 span.underline{
@@ -66,5 +74,27 @@ div #main {
  	-moz-background-size: cover;
  	-o-background-size: cover;
   	background-size: cover;
-  	/*height: 400px; deactivate when content is there*/
+  	height: 600px;
+/*  	float: left;
+*/}
+
+div #frame{
+	width: 300px;
+	margin-left: auto;
+	margin-right: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #D7D5DB;
+	/*background-opacity: 0.4;*/
+}
+
+p.button{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: yellow;
+	padding: 5px 10px;
 }
