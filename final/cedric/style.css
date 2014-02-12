@@ -1,7 +1,62 @@
 *{
 	box-sizing: border-box;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 a {
 	text-decoration: none;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+nav{
+	background-color: green;
+	/*margin: 10px 10px;*/
+	padding: 10px;
+	text-align: right;
+}
+nav a{
+	color: white;
+	margin-right: 20px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+hr{
+	border: 10px;
+	background-color: grey;
+	height: 3px;
+	margin: 0px;
+}
+
+#sub-header h1{
+	text-align: center;
+}
+
+button{
+
+}
+
+#main{
+	background: url(founder-institute-banner.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+  	height: 500px;
+}
+
+#frame{
+	width: 300px;
+	margin: 10px 40px 20px auto;
+	background-color: rgba(233,233,233,.7);
 }
