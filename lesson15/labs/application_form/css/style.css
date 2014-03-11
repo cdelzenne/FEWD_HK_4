@@ -64,7 +64,8 @@ body {
 }
 
 header {
-
+     background-color: grey;
+     text-align: center;
 }
 
 footer {
@@ -75,6 +76,58 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+.form{
+     margin-bottom: 10px;
+     width: 380px;
+}
 
+.input{
+     margin-bottom: 5px;
+}
 
+#firstname.input{
+     width: 100px;
+     margin-left: 40px;
+}
 
+#lastname.input{
+     width: 100px;
+}
+
+#phone1.input{
+     width: 40px;
+     margin-left: 17px;
+}
+
+#phone2.input{
+     width: 40px;
+}
+
+#phone3.input{
+     width: 40px;
+}
+
+#Street.input{
+     width: 246px;
+     margin-left: 55px;
+}
+
+#AddressLine2.input{
+     width: 246px;
+     margin-left: 104px;
+}
+
+#City.input{
+     width: 80px;
+     margin-left: 104px;
+}
+
+#State.input{
+     width: 80px;
+}
+
+#PostalCode.input{
+     width: 80px;
+}
+
+#

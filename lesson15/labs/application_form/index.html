@@ -16,9 +16,36 @@
 	<body>
 		<div id="container">
 			<header>
-				
+				<h1>Course Application</h1>
 			</header> 	
+			<form id="ContactForm" action="">
+				<h2>Your Contact Info</h2>
+				
+				<div class="form">
+					<label>Your Name</label>
+					<input type="text" class="input" name="firstname" id="firstname" required placeholder="First">
+					<input type="text" class="input" name="lastname" id="lastname" required placeholder="Last">	
+				</div>
+				
+				<div class="form">
+					<label>Phone Number</label>
+					<input type="text" class="input" name="phone" id="phone1" min="1" max="3">
+					<span>-</span>
+					<input type="text" class="input" name="phone" id="phone2" min="1" max="3">
+					<span>-</span>
+					<input type="text" class="input" name="phone" id="phone3" min="1" max="6">
+				</div>
+
+				<div class="form">
+					<label>Address</label>
+					<input type="text" class="input" name="Street" id="Street" placeholder="Street Address">
+					<input type="text" class="input" name="AddressLine2" id="AddressLine2" placeholder="Addres Line 2">
+					<input type="text" class="input" name="City" id="City" placeholder="City">
+					<input type="text" class="input" name="State" id="State" placeholder="State">
+					<input type="text" class="input" name="PostalCode" id="PostalCode" placeholder="Postal Code">
+				</div>
 			
+			</form>
 			<footer>
 			
 			</footer>
